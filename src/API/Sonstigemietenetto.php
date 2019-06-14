@@ -35,7 +35,7 @@ class Sonstigemietenetto {
 	 * @param float $sonstigemieteust Shortcut setter for sonstigemieteust
 	 * @param float $value the actual value
 	 */
-	public function __construct(float $sonstigemieteust = null, float $value = null) {
+	public function __construct($sonstigemieteust = null, $value = null) {
 		$this->sonstigemieteust = $sonstigemieteust;
 		$this->value = $value;
 	}
@@ -43,14 +43,14 @@ class Sonstigemietenetto {
 	/**
 	 * @return float
 	 */
-	public function getSonstigemieteust(): float {
+	public function getSonstigemieteust() {
 		return $this->sonstigemieteust;
 	}
 
 	/**
 	 * @return float
 	 */
-	public function getValue(): float {
+	public function getValue() {
 		return $this->value;
 	}
 
@@ -58,7 +58,7 @@ class Sonstigemietenetto {
 	 * @param float $sonstigemieteust Setter for sonstigemieteust
 	 * @return Sonstigemietenetto
 	 */
-	public function setSonstigemieteust(float $sonstigemieteust) {
+	public function setSonstigemieteust($sonstigemieteust) {
 		$this->sonstigemieteust = $sonstigemieteust;
 		return $this;
 	}
@@ -67,7 +67,7 @@ class Sonstigemietenetto {
 	 * @param float $value Setter for value
 	 * @return Sonstigemietenetto
 	 */
-	public function setValue(float $value) {
+	public function setValue($value) {
 		$this->value = $value;
 		return $this;
 	}

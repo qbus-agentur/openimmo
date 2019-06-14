@@ -31,7 +31,7 @@ class Zimmer {
 	/**
 	 * @return string
 	 */
-	public function getZimmertyp(): string {
+	public function getZimmertyp() {
 		return $this->zimmertyp;
 	}
 
@@ -39,7 +39,7 @@ class Zimmer {
 	 * @param string $zimmertyp Setter for zimmertyp
 	 * @return Zimmer
 	 */
-	public function setZimmertyp(string $zimmertyp) {
+	public function setZimmertyp($zimmertyp) {
 		$this->zimmertyp = $zimmertyp;
 		return $this;
 	}

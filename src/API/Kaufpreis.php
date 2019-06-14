@@ -35,7 +35,7 @@ class Kaufpreis {
 	 * @param boolean $aufAnfrage Shortcut setter for aufAnfrage
 	 * @param float $value the actual value
 	 */
-	public function __construct(bool $aufAnfrage = null, float $value = null) {
+	public function __construct($aufAnfrage = null, $value = null) {
 		$this->aufAnfrage = $aufAnfrage;
 		$this->value = $value;
 	}
@@ -43,14 +43,14 @@ class Kaufpreis {
 	/**
 	 * @return boolean
 	 */
-	public function getAufAnfrage(): bool {
+	public function getAufAnfrage() {
 		return $this->aufAnfrage;
 	}
 
 	/**
 	 * @return float
 	 */
-	public function getValue(): float {
+	public function getValue() {
 		return $this->value;
 	}
 
@@ -58,7 +58,7 @@ class Kaufpreis {
 	 * @param boolean $aufAnfrage Setter for aufAnfrage
 	 * @return Kaufpreis
 	 */
-	public function setAufAnfrage(bool $aufAnfrage) {
+	public function setAufAnfrage($aufAnfrage) {
 		$this->aufAnfrage = $aufAnfrage;
 		return $this;
 	}
@@ -67,7 +67,7 @@ class Kaufpreis {
 	 * @param float $value Setter for value
 	 * @return Kaufpreis
 	 */
-	public function setValue(float $value) {
+	public function setValue($value) {
 		$this->value = $value;
 		return $this;
 	}

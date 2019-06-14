@@ -35,7 +35,7 @@ class Gesamtbelastungnetto {
 	 * @param float $gesamtbelastungust Shortcut setter for gesamtbelastungust
 	 * @param float $value the actual value
 	 */
-	public function __construct(float $gesamtbelastungust = null, float $value = null) {
+	public function __construct($gesamtbelastungust = null, $value = null) {
 		$this->gesamtbelastungust = $gesamtbelastungust;
 		$this->value = $value;
 	}
@@ -43,14 +43,14 @@ class Gesamtbelastungnetto {
 	/**
 	 * @return float
 	 */
-	public function getGesamtbelastungust(): float {
+	public function getGesamtbelastungust() {
 		return $this->gesamtbelastungust;
 	}
 
 	/**
 	 * @return float
 	 */
-	public function getValue(): float {
+	public function getValue() {
 		return $this->value;
 	}
 
@@ -58,7 +58,7 @@ class Gesamtbelastungnetto {
 	 * @param float $gesamtbelastungust Setter for gesamtbelastungust
 	 * @return Gesamtbelastungnetto
 	 */
-	public function setGesamtbelastungust(float $gesamtbelastungust) {
+	public function setGesamtbelastungust($gesamtbelastungust) {
 		$this->gesamtbelastungust = $gesamtbelastungust;
 		return $this;
 	}
@@ -67,7 +67,7 @@ class Gesamtbelastungnetto {
 	 * @param float $value Setter for value
 	 * @return Gesamtbelastungnetto
 	 */
-	public function setValue(float $value) {
+	public function setValue($value) {
 		$this->value = $value;
 		return $this;
 	}

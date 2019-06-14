@@ -133,42 +133,42 @@ class Anhang {
 	/**
 	 * @return string
 	 */
-	public function getAnhangtitel(): string {
+	public function getAnhangtitel() {
 		return $this->anhangtitel;
 	}
 
 	/**
 	 * @return Check
 	 */
-	public function getCheck(): Check {
+	public function getCheck() {
 		return $this->check;
 	}
 
 	/**
 	 * @return Daten
 	 */
-	public function getDaten(): Daten {
+	public function getDaten() {
 		return $this->daten;
 	}
 
 	/**
 	 * @return string
 	 */
-	public function getFormat(): string {
+	public function getFormat() {
 		return $this->format;
 	}
 
 	/**
 	 * @return string
 	 */
-	public function getGruppe(): string {
+	public function getGruppe() {
 		return $this->gruppe;
 	}
 
 	/**
 	 * @return string
 	 */
-	public function getLocation(): string {
+	public function getLocation() {
 		return $this->location;
 	}
 
@@ -176,7 +176,7 @@ class Anhang {
 	 * @param string $anhangtitel Setter for anhangtitel
 	 * @return Anhang
 	 */
-	public function setAnhangtitel(string $anhangtitel) {
+	public function setAnhangtitel($anhangtitel) {
 		$this->anhangtitel = $anhangtitel;
 		return $this;
 	}
@@ -203,7 +203,7 @@ class Anhang {
 	 * @param string $format Setter for format
 	 * @return Anhang
 	 */
-	public function setFormat(string $format) {
+	public function setFormat($format) {
 		$this->format = $format;
 		return $this;
 	}
@@ -212,7 +212,7 @@ class Anhang {
 	 * @param string $gruppe Setter for gruppe
 	 * @return Anhang
 	 */
-	public function setGruppe(string $gruppe) {
+	public function setGruppe($gruppe) {
 		$this->gruppe = $gruppe;
 		return $this;
 	}
@@ -221,7 +221,7 @@ class Anhang {
 	 * @param string $location Setter for location
 	 * @return Anhang
 	 */
-	public function setLocation(string $location) {
+	public function setLocation($location) {
 		$this->location = $location;
 		return $this;
 	}

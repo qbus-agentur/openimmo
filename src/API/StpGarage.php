@@ -43,21 +43,21 @@ class StpGarage {
 	/**
 	 * @return int
 	 */
-	public function getAnzahl(): int {
+	public function getAnzahl() {
 		return $this->anzahl;
 	}
 
 	/**
 	 * @return float
 	 */
-	public function getStellplatzkaufpreis(): float {
+	public function getStellplatzkaufpreis() {
 		return $this->stellplatzkaufpreis;
 	}
 
 	/**
 	 * @return float
 	 */
-	public function getStellplatzmiete(): float {
+	public function getStellplatzmiete() {
 		return $this->stellplatzmiete;
 	}
 
@@ -65,7 +65,7 @@ class StpGarage {
 	 * @param int $anzahl Setter for anzahl
 	 * @return StpGarage
 	 */
-	public function setAnzahl(int $anzahl) {
+	public function setAnzahl($anzahl) {
 		$this->anzahl = $anzahl;
 		return $this;
 	}
@@ -74,7 +74,7 @@ class StpGarage {
 	 * @param float $stellplatzkaufpreis Setter for stellplatzkaufpreis
 	 * @return StpGarage
 	 */
-	public function setStellplatzkaufpreis(float $stellplatzkaufpreis) {
+	public function setStellplatzkaufpreis($stellplatzkaufpreis) {
 		$this->stellplatzkaufpreis = $stellplatzkaufpreis;
 		return $this;
 	}
@@ -83,7 +83,7 @@ class StpGarage {
 	 * @param float $stellplatzmiete Setter for stellplatzmiete
 	 * @return StpGarage
 	 */
-	public function setStellplatzmiete(float $stellplatzmiete) {
+	public function setStellplatzmiete($stellplatzmiete) {
 		$this->stellplatzmiete = $stellplatzmiete;
 		return $this;
 	}

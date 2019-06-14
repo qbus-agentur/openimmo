@@ -61,7 +61,7 @@ class EmailSonstige {
 	 * @param string $bemerkung Shortcut setter for bemerkung
 	 * @param string $value the actual value
 	 */
-	public function __construct(string $emailart = null, string $bemerkung = null, string $value = null) {
+	public function __construct($emailart = null, $bemerkung = null, $value = null) {
 		$this->emailart = $emailart;
 		$this->bemerkung = $bemerkung;
 		$this->value = $value;
@@ -70,21 +70,21 @@ class EmailSonstige {
 	/**
 	 * @return string
 	 */
-	public function getBemerkung(): string {
+	public function getBemerkung() {
 		return $this->bemerkung;
 	}
 
 	/**
 	 * @return string
 	 */
-	public function getEmailart(): string {
+	public function getEmailart() {
 		return $this->emailart;
 	}
 
 	/**
 	 * @return string
 	 */
-	public function getValue(): string {
+	public function getValue() {
 		return $this->value;
 	}
 
@@ -92,7 +92,7 @@ class EmailSonstige {
 	 * @param string $bemerkung Setter for bemerkung
 	 * @return EmailSonstige
 	 */
-	public function setBemerkung(string $bemerkung) {
+	public function setBemerkung($bemerkung) {
 		$this->bemerkung = $bemerkung;
 		return $this;
 	}
@@ -101,7 +101,7 @@ class EmailSonstige {
 	 * @param string $emailart Setter for emailart
 	 * @return EmailSonstige
 	 */
-	public function setEmailart(string $emailart) {
+	public function setEmailart($emailart) {
 		$this->emailart = $emailart;
 		return $this;
 	}
@@ -110,7 +110,7 @@ class EmailSonstige {
 	 * @param string $value Setter for value
 	 * @return EmailSonstige
 	 */
-	public function setValue(string $value) {
+	public function setValue($value) {
 		$this->value = $value;
 		return $this;
 	}

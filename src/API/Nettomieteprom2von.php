@@ -35,7 +35,7 @@ class Nettomieteprom2von {
 	 * @param float $nettomieteprom2bis Shortcut setter for nettomieteprom2bis
 	 * @param float $value the actual value
 	 */
-	public function __construct(float $nettomieteprom2bis = null, float $value = null) {
+	public function __construct($nettomieteprom2bis = null, $value = null) {
 		$this->nettomieteprom2bis = $nettomieteprom2bis;
 		$this->value = $value;
 	}
@@ -43,14 +43,14 @@ class Nettomieteprom2von {
 	/**
 	 * @return float
 	 */
-	public function getNettomieteprom2bis(): float {
+	public function getNettomieteprom2bis() {
 		return $this->nettomieteprom2bis;
 	}
 
 	/**
 	 * @return float
 	 */
-	public function getValue(): float {
+	public function getValue() {
 		return $this->value;
 	}
 
@@ -58,7 +58,7 @@ class Nettomieteprom2von {
 	 * @param float $nettomieteprom2bis Setter for nettomieteprom2bis
 	 * @return Nettomieteprom2von
 	 */
-	public function setNettomieteprom2bis(float $nettomieteprom2bis) {
+	public function setNettomieteprom2bis($nettomieteprom2bis) {
 		$this->nettomieteprom2bis = $nettomieteprom2bis;
 		return $this;
 	}
@@ -67,7 +67,7 @@ class Nettomieteprom2von {
 	 * @param float $value Setter for value
 	 * @return Nettomieteprom2von
 	 */
-	public function setValue(float $value) {
+	public function setValue($value) {
 		$this->value = $value;
 		return $this;
 	}

@@ -48,21 +48,21 @@ class Kueche {
 	/**
 	 * @return boolean
 	 */
-	public function getEbk(): bool {
+	public function getEbk() {
 		return $this->ebk;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getOffen(): bool {
+	public function getOffen() {
 		return $this->offen;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getPantry(): bool {
+	public function getPantry() {
 		return $this->pantry;
 	}
 
@@ -70,7 +70,7 @@ class Kueche {
 	 * @param boolean $ebk Setter for ebk
 	 * @return Kueche
 	 */
-	public function setEbk(bool $ebk) {
+	public function setEbk($ebk) {
 		$this->ebk = $ebk;
 		return $this;
 	}
@@ -79,7 +79,7 @@ class Kueche {
 	 * @param boolean $offen Setter for offen
 	 * @return Kueche
 	 */
-	public function setOffen(bool $offen) {
+	public function setOffen($offen) {
 		$this->offen = $offen;
 		return $this;
 	}
@@ -88,7 +88,7 @@ class Kueche {
 	 * @param boolean $pantry Setter for pantry
 	 * @return Kueche
 	 */
-	public function setPantry(bool $pantry) {
+	public function setPantry($pantry) {
 		$this->pantry = $pantry;
 		return $this;
 	}

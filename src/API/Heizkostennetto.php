@@ -35,7 +35,7 @@ class Heizkostennetto {
 	 * @param float $heizkostenust Shortcut setter for heizkostenust
 	 * @param float $value the actual value
 	 */
-	public function __construct(float $heizkostenust = null, float $value = null) {
+	public function __construct($heizkostenust = null, $value = null) {
 		$this->heizkostenust = $heizkostenust;
 		$this->value = $value;
 	}
@@ -43,14 +43,14 @@ class Heizkostennetto {
 	/**
 	 * @return float
 	 */
-	public function getHeizkostenust(): float {
+	public function getHeizkostenust() {
 		return $this->heizkostenust;
 	}
 
 	/**
 	 * @return float
 	 */
-	public function getValue(): float {
+	public function getValue() {
 		return $this->value;
 	}
 
@@ -58,7 +58,7 @@ class Heizkostennetto {
 	 * @param float $heizkostenust Setter for heizkostenust
 	 * @return Heizkostennetto
 	 */
-	public function setHeizkostenust(float $heizkostenust) {
+	public function setHeizkostenust($heizkostenust) {
 		$this->heizkostenust = $heizkostenust;
 		return $this;
 	}
@@ -67,7 +67,7 @@ class Heizkostennetto {
 	 * @param float $value Setter for value
 	 * @return Heizkostennetto
 	 */
-	public function setValue(float $value) {
+	public function setValue($value) {
 		$this->value = $value;
 		return $this;
 	}

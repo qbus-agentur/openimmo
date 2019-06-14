@@ -35,7 +35,7 @@ class Gesamtmietenetto {
 	 * @param float $gesamtmieteust Shortcut setter for gesamtmieteust
 	 * @param float $value the actual value
 	 */
-	public function __construct(float $gesamtmieteust = null, float $value = null) {
+	public function __construct($gesamtmieteust = null, $value = null) {
 		$this->gesamtmieteust = $gesamtmieteust;
 		$this->value = $value;
 	}
@@ -43,14 +43,14 @@ class Gesamtmietenetto {
 	/**
 	 * @return float
 	 */
-	public function getGesamtmieteust(): float {
+	public function getGesamtmieteust() {
 		return $this->gesamtmieteust;
 	}
 
 	/**
 	 * @return float
 	 */
-	public function getValue(): float {
+	public function getValue() {
 		return $this->value;
 	}
 
@@ -58,7 +58,7 @@ class Gesamtmietenetto {
 	 * @param float $gesamtmieteust Setter for gesamtmieteust
 	 * @return Gesamtmietenetto
 	 */
-	public function setGesamtmieteust(float $gesamtmieteust) {
+	public function setGesamtmieteust($gesamtmieteust) {
 		$this->gesamtmieteust = $gesamtmieteust;
 		return $this;
 	}
@@ -67,7 +67,7 @@ class Gesamtmietenetto {
 	 * @param float $value Setter for value
 	 * @return Gesamtmietenetto
 	 */
-	public function setValue(float $value) {
+	public function setValue($value) {
 		$this->value = $value;
 		return $this;
 	}

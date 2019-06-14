@@ -35,7 +35,7 @@ class Ruecklagenetto {
 	 * @param float $ruecklageust Shortcut setter for ruecklageust
 	 * @param float $value the actual value
 	 */
-	public function __construct(float $ruecklageust = null, float $value = null) {
+	public function __construct($ruecklageust = null, $value = null) {
 		$this->ruecklageust = $ruecklageust;
 		$this->value = $value;
 	}
@@ -43,14 +43,14 @@ class Ruecklagenetto {
 	/**
 	 * @return float
 	 */
-	public function getRuecklageust(): float {
+	public function getRuecklageust() {
 		return $this->ruecklageust;
 	}
 
 	/**
 	 * @return float
 	 */
-	public function getValue(): float {
+	public function getValue() {
 		return $this->value;
 	}
 
@@ -58,7 +58,7 @@ class Ruecklagenetto {
 	 * @param float $ruecklageust Setter for ruecklageust
 	 * @return Ruecklagenetto
 	 */
-	public function setRuecklageust(float $ruecklageust) {
+	public function setRuecklageust($ruecklageust) {
 		$this->ruecklageust = $ruecklageust;
 		return $this;
 	}
@@ -67,7 +67,7 @@ class Ruecklagenetto {
 	 * @param float $value Setter for value
 	 * @return Ruecklagenetto
 	 */
-	public function setValue(float $value) {
+	public function setValue($value) {
 		$this->value = $value;
 		return $this;
 	}

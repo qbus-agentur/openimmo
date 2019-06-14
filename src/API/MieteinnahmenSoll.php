@@ -52,7 +52,7 @@ class MieteinnahmenSoll {
 	 * @param string $periode Shortcut setter for periode
 	 * @param float $value the actual value
 	 */
-	public function __construct(string $periode = null, float $value = null) {
+	public function __construct($periode = null, $value = null) {
 		$this->periode = $periode;
 		$this->value = $value;
 	}
@@ -60,14 +60,14 @@ class MieteinnahmenSoll {
 	/**
 	 * @return string
 	 */
-	public function getPeriode(): string {
+	public function getPeriode() {
 		return $this->periode;
 	}
 
 	/**
 	 * @return float
 	 */
-	public function getValue(): float {
+	public function getValue() {
 		return $this->value;
 	}
 
@@ -75,7 +75,7 @@ class MieteinnahmenSoll {
 	 * @param string $periode Setter for periode
 	 * @return MieteinnahmenSoll
 	 */
-	public function setPeriode(string $periode) {
+	public function setPeriode($periode) {
 		$this->periode = $periode;
 		return $this;
 	}
@@ -84,7 +84,7 @@ class MieteinnahmenSoll {
 	 * @param float $value Setter for value
 	 * @return MieteinnahmenSoll
 	 */
-	public function setValue(float $value) {
+	public function setValue($value) {
 		$this->value = $value;
 		return $this;
 	}

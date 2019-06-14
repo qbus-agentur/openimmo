@@ -8,7 +8,7 @@ use JMS\Serializer\Annotation\XmlRoot;
 
 /**
  * Class DistanzenSport
- * Welche Distanz zu dem ausgewählen Sport-/Freizeitziel besteht(Angabe in km),
+ * Welche Distanz zu dem ausgewählen Sport-/Freizeitziel besteht(Angabe in km), 
  *  Optionen nicht kombinierbar, Distanzelement ist mehrfach erfassbar
  *
  * @package Ujamii\OpenImmo\API
@@ -65,7 +65,7 @@ class DistanzenSport {
 	 * @param string $distanzZuSport Shortcut setter for distanzZuSport
 	 * @param float $value the actual value
 	 */
-	public function __construct(string $distanzZuSport = null, float $value = null) {
+	public function __construct($distanzZuSport = null, $value = null) {
 		$this->distanzZuSport = $distanzZuSport;
 		$this->value = $value;
 	}
@@ -73,14 +73,14 @@ class DistanzenSport {
 	/**
 	 * @return string
 	 */
-	public function getDistanzZuSport(): string {
+	public function getDistanzZuSport() {
 		return $this->distanzZuSport;
 	}
 
 	/**
 	 * @return float
 	 */
-	public function getValue(): float {
+	public function getValue() {
 		return $this->value;
 	}
 
@@ -88,7 +88,7 @@ class DistanzenSport {
 	 * @param string $distanzZuSport Setter for distanzZuSport
 	 * @return DistanzenSport
 	 */
-	public function setDistanzZuSport(string $distanzZuSport) {
+	public function setDistanzZuSport($distanzZuSport) {
 		$this->distanzZuSport = $distanzZuSport;
 		return $this;
 	}
@@ -97,7 +97,7 @@ class DistanzenSport {
 	 * @param float $value Setter for value
 	 * @return DistanzenSport
 	 */
-	public function setValue(float $value) {
+	public function setValue($value) {
 		$this->value = $value;
 		return $this;
 	}

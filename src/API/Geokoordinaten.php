@@ -35,14 +35,14 @@ class Geokoordinaten {
 	/**
 	 * @return float
 	 */
-	public function getBreitengrad(): float {
+	public function getBreitengrad() {
 		return $this->breitengrad;
 	}
 
 	/**
 	 * @return float
 	 */
-	public function getLaengengrad(): float {
+	public function getLaengengrad() {
 		return $this->laengengrad;
 	}
 
@@ -50,7 +50,7 @@ class Geokoordinaten {
 	 * @param float $breitengrad Setter for breitengrad
 	 * @return Geokoordinaten
 	 */
-	public function setBreitengrad(float $breitengrad) {
+	public function setBreitengrad($breitengrad) {
 		$this->breitengrad = $breitengrad;
 		return $this;
 	}
@@ -59,7 +59,7 @@ class Geokoordinaten {
 	 * @param float $laengengrad Setter for laengengrad
 	 * @return Geokoordinaten
 	 */
-	public function setLaengengrad(float $laengengrad) {
+	public function setLaengengrad($laengengrad) {
 		$this->laengengrad = $laengengrad;
 		return $this;
 	}

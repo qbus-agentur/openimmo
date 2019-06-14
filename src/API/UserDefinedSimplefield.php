@@ -26,7 +26,7 @@ class UserDefinedSimplefield {
 	/**
 	 * @return string
 	 */
-	public function getFeldname(): string {
+	public function getFeldname() {
 		return $this->feldname;
 	}
 
@@ -34,7 +34,7 @@ class UserDefinedSimplefield {
 	 * @param string $feldname Setter for feldname
 	 * @return UserDefinedSimplefield
 	 */
-	public function setFeldname(string $feldname) {
+	public function setFeldname($feldname) {
 		$this->feldname = $feldname;
 		return $this;
 	}

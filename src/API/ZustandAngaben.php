@@ -104,35 +104,35 @@ class ZustandAngaben {
 	/**
 	 * @return Alter
 	 */
-	public function getAlter(): Alter {
+	public function getAlter() {
 		return $this->alter;
 	}
 
 	/**
 	 * @return string
 	 */
-	public function getAltlasten(): string {
+	public function getAltlasten() {
 		return $this->altlasten;
 	}
 
 	/**
 	 * @return string
 	 */
-	public function getBaujahr(): string {
+	public function getBaujahr() {
 		return $this->baujahr;
 	}
 
 	/**
 	 * @return string
 	 */
-	public function getBauzone(): string {
+	public function getBauzone() {
 		return $this->bauzone;
 	}
 
 	/**
 	 * @return BebaubarNach
 	 */
-	public function getBebaubarNach(): BebaubarNach {
+	public function getBebaubarNach() {
 		return $this->bebaubarNach;
 	}
 
@@ -141,28 +141,28 @@ class ZustandAngaben {
 	 *
 	 * @return array
 	 */
-	public function getEnergiepass(): array {
+	public function getEnergiepass() {
 		return $this->energiepass;
 	}
 
 	/**
 	 * @return Erschliessung
 	 */
-	public function getErschliessung(): Erschliessung {
+	public function getErschliessung() {
 		return $this->erschliessung;
 	}
 
 	/**
 	 * @return ErschliessungUmfang
 	 */
-	public function getErschliessungUmfang(): ErschliessungUmfang {
+	public function getErschliessungUmfang() {
 		return $this->erschliessungUmfang;
 	}
 
 	/**
 	 * @return string
 	 */
-	public function getLetztemodernisierung(): string {
+	public function getLetztemodernisierung() {
 		return $this->letztemodernisierung;
 	}
 
@@ -171,7 +171,7 @@ class ZustandAngaben {
 	 *
 	 * @return array
 	 */
-	public function getUserDefinedAnyfield(): array {
+	public function getUserDefinedAnyfield() {
 		return $this->userDefinedAnyfield;
 	}
 
@@ -180,7 +180,7 @@ class ZustandAngaben {
 	 *
 	 * @return array
 	 */
-	public function getUserDefinedExtend(): array {
+	public function getUserDefinedExtend() {
 		return $this->userDefinedExtend;
 	}
 
@@ -189,21 +189,21 @@ class ZustandAngaben {
 	 *
 	 * @return array
 	 */
-	public function getUserDefinedSimplefield(): array {
+	public function getUserDefinedSimplefield() {
 		return $this->userDefinedSimplefield;
 	}
 
 	/**
 	 * @return Verkaufstatus
 	 */
-	public function getVerkaufstatus(): Verkaufstatus {
+	public function getVerkaufstatus() {
 		return $this->verkaufstatus;
 	}
 
 	/**
 	 * @return Zustand
 	 */
-	public function getZustand(): Zustand {
+	public function getZustand() {
 		return $this->zustand;
 	}
 
@@ -220,7 +220,7 @@ class ZustandAngaben {
 	 * @param string $altlasten Setter for altlasten
 	 * @return ZustandAngaben
 	 */
-	public function setAltlasten(string $altlasten) {
+	public function setAltlasten($altlasten) {
 		$this->altlasten = $altlasten;
 		return $this;
 	}
@@ -229,7 +229,7 @@ class ZustandAngaben {
 	 * @param string $baujahr Setter for baujahr
 	 * @return ZustandAngaben
 	 */
-	public function setBaujahr(string $baujahr) {
+	public function setBaujahr($baujahr) {
 		$this->baujahr = $baujahr;
 		return $this;
 	}
@@ -238,7 +238,7 @@ class ZustandAngaben {
 	 * @param string $bauzone Setter for bauzone
 	 * @return ZustandAngaben
 	 */
-	public function setBauzone(string $bauzone) {
+	public function setBauzone($bauzone) {
 		$this->bauzone = $bauzone;
 		return $this;
 	}
@@ -283,7 +283,7 @@ class ZustandAngaben {
 	 * @param string $letztemodernisierung Setter for letztemodernisierung
 	 * @return ZustandAngaben
 	 */
-	public function setLetztemodernisierung(string $letztemodernisierung) {
+	public function setLetztemodernisierung($letztemodernisierung) {
 		$this->letztemodernisierung = $letztemodernisierung;
 		return $this;
 	}

@@ -26,7 +26,7 @@ class ObjektText {
 	/**
 	 * @return string
 	 */
-	public function getLang(): string {
+	public function getLang() {
 		return $this->lang;
 	}
 
@@ -34,7 +34,7 @@ class ObjektText {
 	 * @param string $lang Setter for lang
 	 * @return ObjektText
 	 */
-	public function setLang(string $lang) {
+	public function setLang($lang) {
 		$this->lang = $lang;
 		return $this;
 	}

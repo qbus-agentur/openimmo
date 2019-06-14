@@ -78,42 +78,42 @@ class Stellplatzart {
 	/**
 	 * @return boolean
 	 */
-	public function getCarport(): bool {
+	public function getCarport() {
 		return $this->carport;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getDuplex(): bool {
+	public function getDuplex() {
 		return $this->duplex;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getFreiplatz(): bool {
+	public function getFreiplatz() {
 		return $this->freiplatz;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getGarage(): bool {
+	public function getGarage() {
 		return $this->garage;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getParkhaus(): bool {
+	public function getParkhaus() {
 		return $this->parkhaus;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getTiefgarage(): bool {
+	public function getTiefgarage() {
 		return $this->tiefgarage;
 	}
 
@@ -121,7 +121,7 @@ class Stellplatzart {
 	 * @param boolean $carport Setter for carport
 	 * @return Stellplatzart
 	 */
-	public function setCarport(bool $carport) {
+	public function setCarport($carport) {
 		$this->carport = $carport;
 		return $this;
 	}
@@ -130,7 +130,7 @@ class Stellplatzart {
 	 * @param boolean $duplex Setter for duplex
 	 * @return Stellplatzart
 	 */
-	public function setDuplex(bool $duplex) {
+	public function setDuplex($duplex) {
 		$this->duplex = $duplex;
 		return $this;
 	}
@@ -139,7 +139,7 @@ class Stellplatzart {
 	 * @param boolean $freiplatz Setter for freiplatz
 	 * @return Stellplatzart
 	 */
-	public function setFreiplatz(bool $freiplatz) {
+	public function setFreiplatz($freiplatz) {
 		$this->freiplatz = $freiplatz;
 		return $this;
 	}
@@ -148,7 +148,7 @@ class Stellplatzart {
 	 * @param boolean $garage Setter for garage
 	 * @return Stellplatzart
 	 */
-	public function setGarage(bool $garage) {
+	public function setGarage($garage) {
 		$this->garage = $garage;
 		return $this;
 	}
@@ -157,7 +157,7 @@ class Stellplatzart {
 	 * @param boolean $parkhaus Setter for parkhaus
 	 * @return Stellplatzart
 	 */
-	public function setParkhaus(bool $parkhaus) {
+	public function setParkhaus($parkhaus) {
 		$this->parkhaus = $parkhaus;
 		return $this;
 	}
@@ -166,7 +166,7 @@ class Stellplatzart {
 	 * @param boolean $tiefgarage Setter for tiefgarage
 	 * @return Stellplatzart
 	 */
-	public function setTiefgarage(bool $tiefgarage) {
+	public function setTiefgarage($tiefgarage) {
 		$this->tiefgarage = $tiefgarage;
 		return $this;
 	}

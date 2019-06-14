@@ -8,7 +8,7 @@ use JMS\Serializer\Annotation\XmlRoot;
 
 /**
  * Class Distanzen
- * Welche Distanz zu dem ausgewählten Ziel besteht (Angabe in km),
+ * Welche Distanz zu dem ausgewählten Ziel besteht (Angabe in km), 
  *  Optionen nicht kombinierbar, Distanzelement ist mehrfach erfassbar
  *
  * @package Ujamii\OpenImmo\API
@@ -93,7 +93,7 @@ class Distanzen {
 	 * @param string $distanzZu Shortcut setter for distanzZu
 	 * @param float $value the actual value
 	 */
-	public function __construct(string $distanzZu = null, float $value = null) {
+	public function __construct($distanzZu = null, $value = null) {
 		$this->distanzZu = $distanzZu;
 		$this->value = $value;
 	}
@@ -101,14 +101,14 @@ class Distanzen {
 	/**
 	 * @return string
 	 */
-	public function getDistanzZu(): string {
+	public function getDistanzZu() {
 		return $this->distanzZu;
 	}
 
 	/**
 	 * @return float
 	 */
-	public function getValue(): float {
+	public function getValue() {
 		return $this->value;
 	}
 
@@ -116,7 +116,7 @@ class Distanzen {
 	 * @param string $distanzZu Setter for distanzZu
 	 * @return Distanzen
 	 */
-	public function setDistanzZu(string $distanzZu) {
+	public function setDistanzZu($distanzZu) {
 		$this->distanzZu = $distanzZu;
 		return $this;
 	}
@@ -125,7 +125,7 @@ class Distanzen {
 	 * @param float $value Setter for value
 	 * @return Distanzen
 	 */
-	public function setValue(float $value) {
+	public function setValue($value) {
 		$this->value = $value;
 		return $this;
 	}

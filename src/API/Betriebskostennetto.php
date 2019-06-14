@@ -35,7 +35,7 @@ class Betriebskostennetto {
 	 * @param float $betriebskostenust Shortcut setter for betriebskostenust
 	 * @param float $value the actual value
 	 */
-	public function __construct(float $betriebskostenust = null, float $value = null) {
+	public function __construct($betriebskostenust = null, $value = null) {
 		$this->betriebskostenust = $betriebskostenust;
 		$this->value = $value;
 	}
@@ -43,14 +43,14 @@ class Betriebskostennetto {
 	/**
 	 * @return float
 	 */
-	public function getBetriebskostenust(): float {
+	public function getBetriebskostenust() {
 		return $this->betriebskostenust;
 	}
 
 	/**
 	 * @return float
 	 */
-	public function getValue(): float {
+	public function getValue() {
 		return $this->value;
 	}
 
@@ -58,7 +58,7 @@ class Betriebskostennetto {
 	 * @param float $betriebskostenust Setter for betriebskostenust
 	 * @return Betriebskostennetto
 	 */
-	public function setBetriebskostenust(float $betriebskostenust) {
+	public function setBetriebskostenust($betriebskostenust) {
 		$this->betriebskostenust = $betriebskostenust;
 		return $this;
 	}
@@ -67,7 +67,7 @@ class Betriebskostennetto {
 	 * @param float $value Setter for value
 	 * @return Betriebskostennetto
 	 */
-	public function setValue(float $value) {
+	public function setValue($value) {
 		$this->value = $value;
 		return $this;
 	}

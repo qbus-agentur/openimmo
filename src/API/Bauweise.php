@@ -47,21 +47,21 @@ class Bauweise {
 	/**
 	 * @return boolean
 	 */
-	public function getFertigteile(): bool {
+	public function getFertigteile() {
 		return $this->fertigteile;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getHolz(): bool {
+	public function getHolz() {
 		return $this->holz;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getMassiv(): bool {
+	public function getMassiv() {
 		return $this->massiv;
 	}
 
@@ -69,7 +69,7 @@ class Bauweise {
 	 * @param boolean $fertigteile Setter for fertigteile
 	 * @return Bauweise
 	 */
-	public function setFertigteile(bool $fertigteile) {
+	public function setFertigteile($fertigteile) {
 		$this->fertigteile = $fertigteile;
 		return $this;
 	}
@@ -78,7 +78,7 @@ class Bauweise {
 	 * @param boolean $holz Setter for holz
 	 * @return Bauweise
 	 */
-	public function setHolz(bool $holz) {
+	public function setHolz($holz) {
 		$this->holz = $holz;
 		return $this;
 	}
@@ -87,7 +87,7 @@ class Bauweise {
 	 * @param boolean $massiv Setter for massiv
 	 * @return Bauweise
 	 */
-	public function setMassiv(bool $massiv) {
+	public function setMassiv($massiv) {
 		$this->massiv = $massiv;
 		return $this;
 	}

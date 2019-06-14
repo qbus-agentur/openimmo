@@ -34,7 +34,7 @@ class Hauptmietzinsnetto {
 	 * @param float $hauptmietzinsust Shortcut setter for hauptmietzinsust
 	 * @param float $value the actual value
 	 */
-	public function __construct(float $hauptmietzinsust = null, float $value = null) {
+	public function __construct($hauptmietzinsust = null, $value = null) {
 		$this->hauptmietzinsust = $hauptmietzinsust;
 		$this->value = $value;
 	}
@@ -42,14 +42,14 @@ class Hauptmietzinsnetto {
 	/**
 	 * @return float
 	 */
-	public function getHauptmietzinsust(): float {
+	public function getHauptmietzinsust() {
 		return $this->hauptmietzinsust;
 	}
 
 	/**
 	 * @return float
 	 */
-	public function getValue(): float {
+	public function getValue() {
 		return $this->value;
 	}
 
@@ -57,7 +57,7 @@ class Hauptmietzinsnetto {
 	 * @param float $hauptmietzinsust Setter for hauptmietzinsust
 	 * @return Hauptmietzinsnetto
 	 */
-	public function setHauptmietzinsust(float $hauptmietzinsust) {
+	public function setHauptmietzinsust($hauptmietzinsust) {
 		$this->hauptmietzinsust = $hauptmietzinsust;
 		return $this;
 	}
@@ -66,7 +66,7 @@ class Hauptmietzinsnetto {
 	 * @param float $value Setter for value
 	 * @return Hauptmietzinsnetto
 	 */
-	public function setValue(float $value) {
+	public function setValue($value) {
 		$this->value = $value;
 		return $this;
 	}

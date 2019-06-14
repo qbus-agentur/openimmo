@@ -35,7 +35,7 @@ class Evbnetto {
 	 * @param float $evbust Shortcut setter for evbust
 	 * @param float $value the actual value
 	 */
-	public function __construct(float $evbust = null, float $value = null) {
+	public function __construct($evbust = null, $value = null) {
 		$this->evbust = $evbust;
 		$this->value = $value;
 	}
@@ -43,14 +43,14 @@ class Evbnetto {
 	/**
 	 * @return float
 	 */
-	public function getEvbust(): float {
+	public function getEvbust() {
 		return $this->evbust;
 	}
 
 	/**
 	 * @return float
 	 */
-	public function getValue(): float {
+	public function getValue() {
 		return $this->value;
 	}
 
@@ -58,7 +58,7 @@ class Evbnetto {
 	 * @param float $evbust Setter for evbust
 	 * @return Evbnetto
 	 */
-	public function setEvbust(float $evbust) {
+	public function setEvbust($evbust) {
 		$this->evbust = $evbust;
 		return $this;
 	}
@@ -67,7 +67,7 @@ class Evbnetto {
 	 * @param float $value Setter for value
 	 * @return Evbnetto
 	 */
-	public function setValue(float $value) {
+	public function setValue($value) {
 		$this->value = $value;
 		return $this;
 	}

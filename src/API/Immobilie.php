@@ -135,77 +135,77 @@ class Immobilie {
 	/**
 	 * @return Anhaenge
 	 */
-	public function getAnhaenge(): Anhaenge {
+	public function getAnhaenge() {
 		return $this->anhaenge;
 	}
 
 	/**
 	 * @return Ausstattung
 	 */
-	public function getAusstattung(): Ausstattung {
+	public function getAusstattung() {
 		return $this->ausstattung;
 	}
 
 	/**
 	 * @return Bewertung
 	 */
-	public function getBewertung(): Bewertung {
+	public function getBewertung() {
 		return $this->bewertung;
 	}
 
 	/**
 	 * @return Bieterverfahren
 	 */
-	public function getBieterverfahren(): Bieterverfahren {
+	public function getBieterverfahren() {
 		return $this->bieterverfahren;
 	}
 
 	/**
 	 * @return Flaechen
 	 */
-	public function getFlaechen(): Flaechen {
+	public function getFlaechen() {
 		return $this->flaechen;
 	}
 
 	/**
 	 * @return Freitexte
 	 */
-	public function getFreitexte(): Freitexte {
+	public function getFreitexte() {
 		return $this->freitexte;
 	}
 
 	/**
 	 * @return Geo
 	 */
-	public function getGeo(): Geo {
+	public function getGeo() {
 		return $this->geo;
 	}
 
 	/**
 	 * @return Infrastruktur
 	 */
-	public function getInfrastruktur(): Infrastruktur {
+	public function getInfrastruktur() {
 		return $this->infrastruktur;
 	}
 
 	/**
 	 * @return Kontaktperson
 	 */
-	public function getKontaktperson(): Kontaktperson {
+	public function getKontaktperson() {
 		return $this->kontaktperson;
 	}
 
 	/**
 	 * @return Objektkategorie
 	 */
-	public function getObjektkategorie(): Objektkategorie {
+	public function getObjektkategorie() {
 		return $this->objektkategorie;
 	}
 
 	/**
 	 * @return Preise
 	 */
-	public function getPreise(): Preise {
+	public function getPreise() {
 		return $this->preise;
 	}
 
@@ -214,7 +214,7 @@ class Immobilie {
 	 *
 	 * @return array
 	 */
-	public function getUserDefinedAnyfield(): array {
+	public function getUserDefinedAnyfield() {
 		return $this->userDefinedAnyfield;
 	}
 
@@ -223,7 +223,7 @@ class Immobilie {
 	 *
 	 * @return array
 	 */
-	public function getUserDefinedExtend(): array {
+	public function getUserDefinedExtend() {
 		return $this->userDefinedExtend;
 	}
 
@@ -232,28 +232,28 @@ class Immobilie {
 	 *
 	 * @return array
 	 */
-	public function getUserDefinedSimplefield(): array {
+	public function getUserDefinedSimplefield() {
 		return $this->userDefinedSimplefield;
 	}
 
 	/**
 	 * @return Versteigerung
 	 */
-	public function getVersteigerung(): Versteigerung {
+	public function getVersteigerung() {
 		return $this->versteigerung;
 	}
 
 	/**
 	 * @return VerwaltungObjekt
 	 */
-	public function getVerwaltungObjekt(): VerwaltungObjekt {
+	public function getVerwaltungObjekt() {
 		return $this->verwaltungObjekt;
 	}
 
 	/**
 	 * @return VerwaltungTechn
 	 */
-	public function getVerwaltungTechn(): VerwaltungTechn {
+	public function getVerwaltungTechn() {
 		return $this->verwaltungTechn;
 	}
 
@@ -262,14 +262,14 @@ class Immobilie {
 	 *
 	 * @return array
 	 */
-	public function getWeitereAdresse(): array {
+	public function getWeitereAdresse() {
 		return $this->weitereAdresse;
 	}
 
 	/**
 	 * @return ZustandAngaben
 	 */
-	public function getZustandAngaben(): ZustandAngaben {
+	public function getZustandAngaben() {
 		return $this->zustandAngaben;
 	}
 

@@ -58,28 +58,28 @@ class Nutzungsart {
 	/**
 	 * @return boolean
 	 */
-	public function getAnlage(): bool {
+	public function getAnlage() {
 		return $this->anlage;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getGewerbe(): bool {
+	public function getGewerbe() {
 		return $this->gewerbe;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getWaz(): bool {
+	public function getWaz() {
 		return $this->waz;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getWohnen(): bool {
+	public function getWohnen() {
 		return $this->wohnen;
 	}
 
@@ -87,7 +87,7 @@ class Nutzungsart {
 	 * @param boolean $anlage Setter for anlage
 	 * @return Nutzungsart
 	 */
-	public function setAnlage(bool $anlage) {
+	public function setAnlage($anlage) {
 		$this->anlage = $anlage;
 		return $this;
 	}
@@ -96,7 +96,7 @@ class Nutzungsart {
 	 * @param boolean $gewerbe Setter for gewerbe
 	 * @return Nutzungsart
 	 */
-	public function setGewerbe(bool $gewerbe) {
+	public function setGewerbe($gewerbe) {
 		$this->gewerbe = $gewerbe;
 		return $this;
 	}
@@ -105,7 +105,7 @@ class Nutzungsart {
 	 * @param boolean $waz Setter for waz
 	 * @return Nutzungsart
 	 */
-	public function setWaz(bool $waz) {
+	public function setWaz($waz) {
 		$this->waz = $waz;
 		return $this;
 	}
@@ -114,7 +114,7 @@ class Nutzungsart {
 	 * @param boolean $wohnen Setter for wohnen
 	 * @return Nutzungsart
 	 */
-	public function setWohnen(bool $wohnen) {
+	public function setWohnen($wohnen) {
 		$this->wohnen = $wohnen;
 		return $this;
 	}

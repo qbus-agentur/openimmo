@@ -58,28 +58,28 @@ class Vermarktungsart {
 	/**
 	 * @return boolean
 	 */
-	public function getErbpacht(): bool {
+	public function getErbpacht() {
 		return $this->erbpacht;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getKauf(): bool {
+	public function getKauf() {
 		return $this->kauf;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getLeasing(): bool {
+	public function getLeasing() {
 		return $this->leasing;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getMietePacht(): bool {
+	public function getMietePacht() {
 		return $this->mietePacht;
 	}
 
@@ -87,7 +87,7 @@ class Vermarktungsart {
 	 * @param boolean $erbpacht Setter for erbpacht
 	 * @return Vermarktungsart
 	 */
-	public function setErbpacht(bool $erbpacht) {
+	public function setErbpacht($erbpacht) {
 		$this->erbpacht = $erbpacht;
 		return $this;
 	}
@@ -96,7 +96,7 @@ class Vermarktungsart {
 	 * @param boolean $kauf Setter for kauf
 	 * @return Vermarktungsart
 	 */
-	public function setKauf(bool $kauf) {
+	public function setKauf($kauf) {
 		$this->kauf = $kauf;
 		return $this;
 	}
@@ -105,7 +105,7 @@ class Vermarktungsart {
 	 * @param boolean $leasing Setter for leasing
 	 * @return Vermarktungsart
 	 */
-	public function setLeasing(bool $leasing) {
+	public function setLeasing($leasing) {
 		$this->leasing = $leasing;
 		return $this;
 	}
@@ -114,7 +114,7 @@ class Vermarktungsart {
 	 * @param boolean $mietePacht Setter for mietePacht
 	 * @return Vermarktungsart
 	 */
-	public function setMietePacht(bool $mietePacht) {
+	public function setMietePacht($mietePacht) {
 		$this->mietePacht = $mietePacht;
 		return $this;
 	}

@@ -98,56 +98,56 @@ class AusrichtBalkonTerrasse {
 	/**
 	 * @return boolean
 	 */
-	public function getNord(): bool {
+	public function getNord() {
 		return $this->nord;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getNordost(): bool {
+	public function getNordost() {
 		return $this->nordost;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getNordwest(): bool {
+	public function getNordwest() {
 		return $this->nordwest;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getOst(): bool {
+	public function getOst() {
 		return $this->ost;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getSued(): bool {
+	public function getSued() {
 		return $this->sued;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getSuedost(): bool {
+	public function getSuedost() {
 		return $this->suedost;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getSuedwest(): bool {
+	public function getSuedwest() {
 		return $this->suedwest;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getWest(): bool {
+	public function getWest() {
 		return $this->west;
 	}
 
@@ -155,7 +155,7 @@ class AusrichtBalkonTerrasse {
 	 * @param boolean $nord Setter for nord
 	 * @return AusrichtBalkonTerrasse
 	 */
-	public function setNord(bool $nord) {
+	public function setNord($nord) {
 		$this->nord = $nord;
 		return $this;
 	}
@@ -164,7 +164,7 @@ class AusrichtBalkonTerrasse {
 	 * @param boolean $nordost Setter for nordost
 	 * @return AusrichtBalkonTerrasse
 	 */
-	public function setNordost(bool $nordost) {
+	public function setNordost($nordost) {
 		$this->nordost = $nordost;
 		return $this;
 	}
@@ -173,7 +173,7 @@ class AusrichtBalkonTerrasse {
 	 * @param boolean $nordwest Setter for nordwest
 	 * @return AusrichtBalkonTerrasse
 	 */
-	public function setNordwest(bool $nordwest) {
+	public function setNordwest($nordwest) {
 		$this->nordwest = $nordwest;
 		return $this;
 	}
@@ -182,7 +182,7 @@ class AusrichtBalkonTerrasse {
 	 * @param boolean $ost Setter for ost
 	 * @return AusrichtBalkonTerrasse
 	 */
-	public function setOst(bool $ost) {
+	public function setOst($ost) {
 		$this->ost = $ost;
 		return $this;
 	}
@@ -191,7 +191,7 @@ class AusrichtBalkonTerrasse {
 	 * @param boolean $sued Setter for sued
 	 * @return AusrichtBalkonTerrasse
 	 */
-	public function setSued(bool $sued) {
+	public function setSued($sued) {
 		$this->sued = $sued;
 		return $this;
 	}
@@ -200,7 +200,7 @@ class AusrichtBalkonTerrasse {
 	 * @param boolean $suedost Setter for suedost
 	 * @return AusrichtBalkonTerrasse
 	 */
-	public function setSuedost(bool $suedost) {
+	public function setSuedost($suedost) {
 		$this->suedost = $suedost;
 		return $this;
 	}
@@ -209,7 +209,7 @@ class AusrichtBalkonTerrasse {
 	 * @param boolean $suedwest Setter for suedwest
 	 * @return AusrichtBalkonTerrasse
 	 */
-	public function setSuedwest(bool $suedwest) {
+	public function setSuedwest($suedwest) {
 		$this->suedwest = $suedwest;
 		return $this;
 	}
@@ -218,7 +218,7 @@ class AusrichtBalkonTerrasse {
 	 * @param boolean $west Setter for west
 	 * @return AusrichtBalkonTerrasse
 	 */
-	public function setWest(bool $west) {
+	public function setWest($west) {
 		$this->west = $west;
 		return $this;
 	}

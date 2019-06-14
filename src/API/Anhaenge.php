@@ -46,7 +46,7 @@ class Anhaenge {
 	 *
 	 * @return array
 	 */
-	public function getAnhang(): array {
+	public function getAnhang() {
 		return $this->anhang;
 	}
 
@@ -55,7 +55,7 @@ class Anhaenge {
 	 *
 	 * @return array
 	 */
-	public function getUserDefinedAnyfield(): array {
+	public function getUserDefinedAnyfield() {
 		return $this->userDefinedAnyfield;
 	}
 
@@ -64,7 +64,7 @@ class Anhaenge {
 	 *
 	 * @return array
 	 */
-	public function getUserDefinedExtend(): array {
+	public function getUserDefinedExtend() {
 		return $this->userDefinedExtend;
 	}
 
@@ -73,7 +73,7 @@ class Anhaenge {
 	 *
 	 * @return array
 	 */
-	public function getUserDefinedSimplefield(): array {
+	public function getUserDefinedSimplefield() {
 		return $this->userDefinedSimplefield;
 	}
 

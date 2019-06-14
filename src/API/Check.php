@@ -48,7 +48,7 @@ class Check {
 	 * @param string $ctype Shortcut setter for ctype
 	 * @param \DateTime $value the actual value
 	 */
-	public function __construct(string $ctype = null, \DateTime $value = null) {
+	public function __construct($ctype = null, \DateTime $value = null) {
 		$this->ctype = $ctype;
 		$this->value = $value;
 	}
@@ -56,14 +56,14 @@ class Check {
 	/**
 	 * @return string
 	 */
-	public function getCtype(): string {
+	public function getCtype() {
 		return $this->ctype;
 	}
 
 	/**
 	 * @return \DateTime
 	 */
-	public function getValue(): \DateTime {
+	public function getValue() {
 		return $this->value;
 	}
 
@@ -71,7 +71,7 @@ class Check {
 	 * @param string $ctype Setter for ctype
 	 * @return Check
 	 */
-	public function setCtype(string $ctype) {
+	public function setCtype($ctype) {
 		$this->ctype = $ctype;
 		return $this;
 	}

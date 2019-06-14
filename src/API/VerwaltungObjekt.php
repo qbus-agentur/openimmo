@@ -163,112 +163,112 @@ class VerwaltungObjekt {
 	/**
 	 * @return \DateTime
 	 */
-	public function getAbdatum(): \DateTime {
+	public function getAbdatum() {
 		return $this->abdatum;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getAlsFerien(): bool {
+	public function getAlsFerien() {
 		return $this->alsFerien;
 	}
 
 	/**
 	 * @return \DateTime
 	 */
-	public function getBisdatum(): \DateTime {
+	public function getBisdatum() {
 		return $this->bisdatum;
 	}
 
 	/**
 	 * @return string
 	 */
-	public function getBranchen(): string {
+	public function getBranchen() {
 		return $this->branchen;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getDenkmalgeschuetzt(): bool {
+	public function getDenkmalgeschuetzt() {
 		return $this->denkmalgeschuetzt;
 	}
 
 	/**
 	 * @return Geschlecht
 	 */
-	public function getGeschlecht(): Geschlecht {
+	public function getGeschlecht() {
 		return $this->geschlecht;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getGewerblicheNutzung(): bool {
+	public function getGewerblicheNutzung() {
 		return $this->gewerblicheNutzung;
 	}
 
 	/**
 	 * @return string
 	 */
-	public function getGruppennummer(): string {
+	public function getGruppennummer() {
 		return $this->gruppennummer;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getHaustiere(): bool {
+	public function getHaustiere() {
 		return $this->haustiere;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getHochhaus(): bool {
+	public function getHochhaus() {
 		return $this->hochhaus;
 	}
 
 	/**
 	 * @return float
 	 */
-	public function getLaufzeit(): float {
+	public function getLaufzeit() {
 		return $this->laufzeit;
 	}
 
 	/**
 	 * @return MaxMietdauer
 	 */
-	public function getMaxMietdauer(): MaxMietdauer {
+	public function getMaxMietdauer() {
 		return $this->maxMietdauer;
 	}
 
 	/**
 	 * @return int
 	 */
-	public function getMaxPersonen(): int {
+	public function getMaxPersonen() {
 		return $this->maxPersonen;
 	}
 
 	/**
 	 * @return MinMietdauer
 	 */
-	public function getMinMietdauer(): MinMietdauer {
+	public function getMinMietdauer() {
 		return $this->minMietdauer;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getNichtraucher(): bool {
+	public function getNichtraucher() {
 		return $this->nichtraucher;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getObjektadresseFreigeben(): bool {
+	public function getObjektadresseFreigeben() {
 		return $this->objektadresseFreigeben;
 	}
 
@@ -277,7 +277,7 @@ class VerwaltungObjekt {
 	 *
 	 * @return array
 	 */
-	public function getUserDefinedAnyfield(): array {
+	public function getUserDefinedAnyfield() {
 		return $this->userDefinedAnyfield;
 	}
 
@@ -286,7 +286,7 @@ class VerwaltungObjekt {
 	 *
 	 * @return array
 	 */
-	public function getUserDefinedExtend(): array {
+	public function getUserDefinedExtend() {
 		return $this->userDefinedExtend;
 	}
 
@@ -295,42 +295,42 @@ class VerwaltungObjekt {
 	 *
 	 * @return array
 	 */
-	public function getUserDefinedSimplefield(): array {
+	public function getUserDefinedSimplefield() {
 		return $this->userDefinedSimplefield;
 	}
 
 	/**
 	 * @return string
 	 */
-	public function getVerfuegbarAb(): string {
+	public function getVerfuegbarAb() {
 		return $this->verfuegbarAb;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getVermietet(): bool {
+	public function getVermietet() {
 		return $this->vermietet;
 	}
 
 	/**
 	 * @return \DateTime
 	 */
-	public function getVersteigerungstermin(): \DateTime {
+	public function getVersteigerungstermin() {
 		return $this->versteigerungstermin;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getWbsSozialwohnung(): bool {
+	public function getWbsSozialwohnung() {
 		return $this->wbsSozialwohnung;
 	}
 
 	/**
 	 * @return string
 	 */
-	public function getZugang(): string {
+	public function getZugang() {
 		return $this->zugang;
 	}
 
@@ -347,7 +347,7 @@ class VerwaltungObjekt {
 	 * @param boolean $alsFerien Setter for alsFerien
 	 * @return VerwaltungObjekt
 	 */
-	public function setAlsFerien(bool $alsFerien) {
+	public function setAlsFerien($alsFerien) {
 		$this->alsFerien = $alsFerien;
 		return $this;
 	}
@@ -365,7 +365,7 @@ class VerwaltungObjekt {
 	 * @param string $branchen Setter for branchen
 	 * @return VerwaltungObjekt
 	 */
-	public function setBranchen(string $branchen) {
+	public function setBranchen($branchen) {
 		$this->branchen = $branchen;
 		return $this;
 	}
@@ -374,7 +374,7 @@ class VerwaltungObjekt {
 	 * @param boolean $denkmalgeschuetzt Setter for denkmalgeschuetzt
 	 * @return VerwaltungObjekt
 	 */
-	public function setDenkmalgeschuetzt(bool $denkmalgeschuetzt) {
+	public function setDenkmalgeschuetzt($denkmalgeschuetzt) {
 		$this->denkmalgeschuetzt = $denkmalgeschuetzt;
 		return $this;
 	}
@@ -392,7 +392,7 @@ class VerwaltungObjekt {
 	 * @param boolean $gewerblicheNutzung Setter for gewerblicheNutzung
 	 * @return VerwaltungObjekt
 	 */
-	public function setGewerblicheNutzung(bool $gewerblicheNutzung) {
+	public function setGewerblicheNutzung($gewerblicheNutzung) {
 		$this->gewerblicheNutzung = $gewerblicheNutzung;
 		return $this;
 	}
@@ -401,7 +401,7 @@ class VerwaltungObjekt {
 	 * @param string $gruppennummer Setter for gruppennummer
 	 * @return VerwaltungObjekt
 	 */
-	public function setGruppennummer(string $gruppennummer) {
+	public function setGruppennummer($gruppennummer) {
 		$this->gruppennummer = $gruppennummer;
 		return $this;
 	}
@@ -410,7 +410,7 @@ class VerwaltungObjekt {
 	 * @param boolean $haustiere Setter for haustiere
 	 * @return VerwaltungObjekt
 	 */
-	public function setHaustiere(bool $haustiere) {
+	public function setHaustiere($haustiere) {
 		$this->haustiere = $haustiere;
 		return $this;
 	}
@@ -419,7 +419,7 @@ class VerwaltungObjekt {
 	 * @param boolean $hochhaus Setter for hochhaus
 	 * @return VerwaltungObjekt
 	 */
-	public function setHochhaus(bool $hochhaus) {
+	public function setHochhaus($hochhaus) {
 		$this->hochhaus = $hochhaus;
 		return $this;
 	}
@@ -428,7 +428,7 @@ class VerwaltungObjekt {
 	 * @param float $laufzeit Setter for laufzeit
 	 * @return VerwaltungObjekt
 	 */
-	public function setLaufzeit(float $laufzeit) {
+	public function setLaufzeit($laufzeit) {
 		$this->laufzeit = $laufzeit;
 		return $this;
 	}
@@ -446,7 +446,7 @@ class VerwaltungObjekt {
 	 * @param int $maxPersonen Setter for maxPersonen
 	 * @return VerwaltungObjekt
 	 */
-	public function setMaxPersonen(int $maxPersonen) {
+	public function setMaxPersonen($maxPersonen) {
 		$this->maxPersonen = $maxPersonen;
 		return $this;
 	}
@@ -464,7 +464,7 @@ class VerwaltungObjekt {
 	 * @param boolean $nichtraucher Setter for nichtraucher
 	 * @return VerwaltungObjekt
 	 */
-	public function setNichtraucher(bool $nichtraucher) {
+	public function setNichtraucher($nichtraucher) {
 		$this->nichtraucher = $nichtraucher;
 		return $this;
 	}
@@ -473,7 +473,7 @@ class VerwaltungObjekt {
 	 * @param boolean $objektadresseFreigeben Setter for objektadresseFreigeben
 	 * @return VerwaltungObjekt
 	 */
-	public function setObjektadresseFreigeben(bool $objektadresseFreigeben) {
+	public function setObjektadresseFreigeben($objektadresseFreigeben) {
 		$this->objektadresseFreigeben = $objektadresseFreigeben;
 		return $this;
 	}
@@ -509,7 +509,7 @@ class VerwaltungObjekt {
 	 * @param string $verfuegbarAb Setter for verfuegbarAb
 	 * @return VerwaltungObjekt
 	 */
-	public function setVerfuegbarAb(string $verfuegbarAb) {
+	public function setVerfuegbarAb($verfuegbarAb) {
 		$this->verfuegbarAb = $verfuegbarAb;
 		return $this;
 	}
@@ -518,7 +518,7 @@ class VerwaltungObjekt {
 	 * @param boolean $vermietet Setter for vermietet
 	 * @return VerwaltungObjekt
 	 */
-	public function setVermietet(bool $vermietet) {
+	public function setVermietet($vermietet) {
 		$this->vermietet = $vermietet;
 		return $this;
 	}
@@ -536,7 +536,7 @@ class VerwaltungObjekt {
 	 * @param boolean $wbsSozialwohnung Setter for wbsSozialwohnung
 	 * @return VerwaltungObjekt
 	 */
-	public function setWbsSozialwohnung(bool $wbsSozialwohnung) {
+	public function setWbsSozialwohnung($wbsSozialwohnung) {
 		$this->wbsSozialwohnung = $wbsSozialwohnung;
 		return $this;
 	}
@@ -545,7 +545,7 @@ class VerwaltungObjekt {
 	 * @param string $zugang Setter for zugang
 	 * @return VerwaltungObjekt
 	 */
-	public function setZugang(string $zugang) {
+	public function setZugang($zugang) {
 		$this->zugang = $zugang;
 		return $this;
 	}

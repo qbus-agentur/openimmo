@@ -129,63 +129,63 @@ class Uebertragung {
 	/**
 	 * @return string
 	 */
-	public function getArt(): string {
+	public function getArt() {
 		return $this->art;
 	}
 
 	/**
 	 * @return string
 	 */
-	public function getModus(): string {
+	public function getModus() {
 		return $this->modus;
 	}
 
 	/**
 	 * @return string
 	 */
-	public function getRegiId(): string {
+	public function getRegiId() {
 		return $this->regiId;
 	}
 
 	/**
 	 * @return string
 	 */
-	public function getSendersoftware(): string {
+	public function getSendersoftware() {
 		return $this->sendersoftware;
 	}
 
 	/**
 	 * @return string
 	 */
-	public function getSenderversion(): string {
+	public function getSenderversion() {
 		return $this->senderversion;
 	}
 
 	/**
 	 * @return string
 	 */
-	public function getTechnEmail(): string {
+	public function getTechnEmail() {
 		return $this->technEmail;
 	}
 
 	/**
 	 * @return \DateTime
 	 */
-	public function getTimestamp(): \DateTime {
+	public function getTimestamp() {
 		return $this->timestamp;
 	}
 
 	/**
 	 * @return string
 	 */
-	public function getUmfang(): string {
+	public function getUmfang() {
 		return $this->umfang;
 	}
 
 	/**
 	 * @return string
 	 */
-	public function getVersion(): string {
+	public function getVersion() {
 		return $this->version;
 	}
 
@@ -193,7 +193,7 @@ class Uebertragung {
 	 * @param string $art Setter for art
 	 * @return Uebertragung
 	 */
-	public function setArt(string $art) {
+	public function setArt($art) {
 		$this->art = $art;
 		return $this;
 	}
@@ -202,7 +202,7 @@ class Uebertragung {
 	 * @param string $modus Setter for modus
 	 * @return Uebertragung
 	 */
-	public function setModus(string $modus) {
+	public function setModus($modus) {
 		$this->modus = $modus;
 		return $this;
 	}
@@ -211,7 +211,7 @@ class Uebertragung {
 	 * @param string $regiId Setter for regiId
 	 * @return Uebertragung
 	 */
-	public function setRegiId(string $regiId) {
+	public function setRegiId($regiId) {
 		$this->regiId = $regiId;
 		return $this;
 	}
@@ -220,7 +220,7 @@ class Uebertragung {
 	 * @param string $sendersoftware Setter for sendersoftware
 	 * @return Uebertragung
 	 */
-	public function setSendersoftware(string $sendersoftware) {
+	public function setSendersoftware($sendersoftware) {
 		$this->sendersoftware = $sendersoftware;
 		return $this;
 	}
@@ -229,7 +229,7 @@ class Uebertragung {
 	 * @param string $senderversion Setter for senderversion
 	 * @return Uebertragung
 	 */
-	public function setSenderversion(string $senderversion) {
+	public function setSenderversion($senderversion) {
 		$this->senderversion = $senderversion;
 		return $this;
 	}
@@ -238,7 +238,7 @@ class Uebertragung {
 	 * @param string $technEmail Setter for technEmail
 	 * @return Uebertragung
 	 */
-	public function setTechnEmail(string $technEmail) {
+	public function setTechnEmail($technEmail) {
 		$this->technEmail = $technEmail;
 		return $this;
 	}
@@ -256,7 +256,7 @@ class Uebertragung {
 	 * @param string $umfang Setter for umfang
 	 * @return Uebertragung
 	 */
-	public function setUmfang(string $umfang) {
+	public function setUmfang($umfang) {
 		$this->umfang = $umfang;
 		return $this;
 	}
@@ -265,7 +265,7 @@ class Uebertragung {
 	 * @param string $version Setter for version
 	 * @return Uebertragung
 	 */
-	public function setVersion(string $version) {
+	public function setVersion($version) {
 		$this->version = $version;
 		return $this;
 	}

@@ -35,7 +35,7 @@ class Provisionnetto {
 	 * @param float $provisionust Shortcut setter for provisionust
 	 * @param float $value the actual value
 	 */
-	public function __construct(float $provisionust = null, float $value = null) {
+	public function __construct($provisionust = null, $value = null) {
 		$this->provisionust = $provisionust;
 		$this->value = $value;
 	}
@@ -43,14 +43,14 @@ class Provisionnetto {
 	/**
 	 * @return float
 	 */
-	public function getProvisionust(): float {
+	public function getProvisionust() {
 		return $this->provisionust;
 	}
 
 	/**
 	 * @return float
 	 */
-	public function getValue(): float {
+	public function getValue() {
 		return $this->value;
 	}
 
@@ -58,7 +58,7 @@ class Provisionnetto {
 	 * @param float $provisionust Setter for provisionust
 	 * @return Provisionnetto
 	 */
-	public function setProvisionust(float $provisionust) {
+	public function setProvisionust($provisionust) {
 		$this->provisionust = $provisionust;
 		return $this;
 	}
@@ -67,7 +67,7 @@ class Provisionnetto {
 	 * @param float $value Setter for value
 	 * @return Provisionnetto
 	 */
-	public function setValue(float $value) {
+	public function setValue($value) {
 		$this->value = $value;
 		return $this;
 	}

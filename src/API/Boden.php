@@ -158,98 +158,98 @@ class Boden {
 	/**
 	 * @return boolean
 	 */
-	public function getDielen(): bool {
+	public function getDielen() {
 		return $this->dielen;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getDoppelboden(): bool {
+	public function getDoppelboden() {
 		return $this->doppelboden;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getEstrich(): bool {
+	public function getEstrich() {
 		return $this->estrich;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getFertigparkett(): bool {
+	public function getFertigparkett() {
 		return $this->fertigparkett;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getFliesen(): bool {
+	public function getFliesen() {
 		return $this->fliesen;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getGranit(): bool {
+	public function getGranit() {
 		return $this->granit;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getKunststoff(): bool {
+	public function getKunststoff() {
 		return $this->kunststoff;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getLaminat(): bool {
+	public function getLaminat() {
 		return $this->laminat;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getLinoleum(): bool {
+	public function getLinoleum() {
 		return $this->linoleum;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getMarmor(): bool {
+	public function getMarmor() {
 		return $this->marmor;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getParkett(): bool {
+	public function getParkett() {
 		return $this->parkett;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getStein(): bool {
+	public function getStein() {
 		return $this->stein;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getTeppich(): bool {
+	public function getTeppich() {
 		return $this->teppich;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getTerrakotta(): bool {
+	public function getTerrakotta() {
 		return $this->terrakotta;
 	}
 
@@ -257,7 +257,7 @@ class Boden {
 	 * @param boolean $dielen Setter for dielen
 	 * @return Boden
 	 */
-	public function setDielen(bool $dielen) {
+	public function setDielen($dielen) {
 		$this->dielen = $dielen;
 		return $this;
 	}
@@ -266,7 +266,7 @@ class Boden {
 	 * @param boolean $doppelboden Setter for doppelboden
 	 * @return Boden
 	 */
-	public function setDoppelboden(bool $doppelboden) {
+	public function setDoppelboden($doppelboden) {
 		$this->doppelboden = $doppelboden;
 		return $this;
 	}
@@ -275,7 +275,7 @@ class Boden {
 	 * @param boolean $estrich Setter for estrich
 	 * @return Boden
 	 */
-	public function setEstrich(bool $estrich) {
+	public function setEstrich($estrich) {
 		$this->estrich = $estrich;
 		return $this;
 	}
@@ -284,7 +284,7 @@ class Boden {
 	 * @param boolean $fertigparkett Setter for fertigparkett
 	 * @return Boden
 	 */
-	public function setFertigparkett(bool $fertigparkett) {
+	public function setFertigparkett($fertigparkett) {
 		$this->fertigparkett = $fertigparkett;
 		return $this;
 	}
@@ -293,7 +293,7 @@ class Boden {
 	 * @param boolean $fliesen Setter for fliesen
 	 * @return Boden
 	 */
-	public function setFliesen(bool $fliesen) {
+	public function setFliesen($fliesen) {
 		$this->fliesen = $fliesen;
 		return $this;
 	}
@@ -302,7 +302,7 @@ class Boden {
 	 * @param boolean $granit Setter for granit
 	 * @return Boden
 	 */
-	public function setGranit(bool $granit) {
+	public function setGranit($granit) {
 		$this->granit = $granit;
 		return $this;
 	}
@@ -311,7 +311,7 @@ class Boden {
 	 * @param boolean $kunststoff Setter for kunststoff
 	 * @return Boden
 	 */
-	public function setKunststoff(bool $kunststoff) {
+	public function setKunststoff($kunststoff) {
 		$this->kunststoff = $kunststoff;
 		return $this;
 	}
@@ -320,7 +320,7 @@ class Boden {
 	 * @param boolean $laminat Setter for laminat
 	 * @return Boden
 	 */
-	public function setLaminat(bool $laminat) {
+	public function setLaminat($laminat) {
 		$this->laminat = $laminat;
 		return $this;
 	}
@@ -329,7 +329,7 @@ class Boden {
 	 * @param boolean $linoleum Setter for linoleum
 	 * @return Boden
 	 */
-	public function setLinoleum(bool $linoleum) {
+	public function setLinoleum($linoleum) {
 		$this->linoleum = $linoleum;
 		return $this;
 	}
@@ -338,7 +338,7 @@ class Boden {
 	 * @param boolean $marmor Setter for marmor
 	 * @return Boden
 	 */
-	public function setMarmor(bool $marmor) {
+	public function setMarmor($marmor) {
 		$this->marmor = $marmor;
 		return $this;
 	}
@@ -347,7 +347,7 @@ class Boden {
 	 * @param boolean $parkett Setter for parkett
 	 * @return Boden
 	 */
-	public function setParkett(bool $parkett) {
+	public function setParkett($parkett) {
 		$this->parkett = $parkett;
 		return $this;
 	}
@@ -356,7 +356,7 @@ class Boden {
 	 * @param boolean $stein Setter for stein
 	 * @return Boden
 	 */
-	public function setStein(bool $stein) {
+	public function setStein($stein) {
 		$this->stein = $stein;
 		return $this;
 	}
@@ -365,7 +365,7 @@ class Boden {
 	 * @param boolean $teppich Setter for teppich
 	 * @return Boden
 	 */
-	public function setTeppich(bool $teppich) {
+	public function setTeppich($teppich) {
 		$this->teppich = $teppich;
 		return $this;
 	}
@@ -374,7 +374,7 @@ class Boden {
 	 * @param boolean $terrakotta Setter for terrakotta
 	 * @return Boden
 	 */
-	public function setTerrakotta(bool $terrakotta) {
+	public function setTerrakotta($terrakotta) {
 		$this->terrakotta = $terrakotta;
 		return $this;
 	}

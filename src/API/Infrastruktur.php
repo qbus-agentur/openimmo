@@ -63,7 +63,7 @@ class Infrastruktur {
 	/**
 	 * @return Ausblick
 	 */
-	public function getAusblick(): Ausblick {
+	public function getAusblick() {
 		return $this->ausblick;
 	}
 
@@ -72,7 +72,7 @@ class Infrastruktur {
 	 *
 	 * @return array
 	 */
-	public function getDistanzen(): array {
+	public function getDistanzen() {
 		return $this->distanzen;
 	}
 
@@ -81,7 +81,7 @@ class Infrastruktur {
 	 *
 	 * @return array
 	 */
-	public function getDistanzenSport(): array {
+	public function getDistanzenSport() {
 		return $this->distanzenSport;
 	}
 
@@ -90,7 +90,7 @@ class Infrastruktur {
 	 *
 	 * @return array
 	 */
-	public function getUserDefinedAnyfield(): array {
+	public function getUserDefinedAnyfield() {
 		return $this->userDefinedAnyfield;
 	}
 
@@ -99,7 +99,7 @@ class Infrastruktur {
 	 *
 	 * @return array
 	 */
-	public function getUserDefinedExtend(): array {
+	public function getUserDefinedExtend() {
 		return $this->userDefinedExtend;
 	}
 
@@ -108,14 +108,14 @@ class Infrastruktur {
 	 *
 	 * @return array
 	 */
-	public function getUserDefinedSimplefield(): array {
+	public function getUserDefinedSimplefield() {
 		return $this->userDefinedSimplefield;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getZulieferung(): bool {
+	public function getZulieferung() {
 		return $this->zulieferung;
 	}
 
@@ -177,7 +177,7 @@ class Infrastruktur {
 	 * @param boolean $zulieferung Setter for zulieferung
 	 * @return Infrastruktur
 	 */
-	public function setZulieferung(bool $zulieferung) {
+	public function setZulieferung($zulieferung) {
 		$this->zulieferung = $zulieferung;
 		return $this;
 	}

@@ -35,7 +35,7 @@ class Gesamtkostenprom2von {
 	 * @param float $gesamtkostenprom2bis Shortcut setter for gesamtkostenprom2bis
 	 * @param float $value the actual value
 	 */
-	public function __construct(float $gesamtkostenprom2bis = null, float $value = null) {
+	public function __construct($gesamtkostenprom2bis = null, $value = null) {
 		$this->gesamtkostenprom2bis = $gesamtkostenprom2bis;
 		$this->value = $value;
 	}
@@ -43,14 +43,14 @@ class Gesamtkostenprom2von {
 	/**
 	 * @return float
 	 */
-	public function getGesamtkostenprom2bis(): float {
+	public function getGesamtkostenprom2bis() {
 		return $this->gesamtkostenprom2bis;
 	}
 
 	/**
 	 * @return float
 	 */
-	public function getValue(): float {
+	public function getValue() {
 		return $this->value;
 	}
 
@@ -58,7 +58,7 @@ class Gesamtkostenprom2von {
 	 * @param float $gesamtkostenprom2bis Setter for gesamtkostenprom2bis
 	 * @return Gesamtkostenprom2von
 	 */
-	public function setGesamtkostenprom2bis(float $gesamtkostenprom2bis) {
+	public function setGesamtkostenprom2bis($gesamtkostenprom2bis) {
 		$this->gesamtkostenprom2bis = $gesamtkostenprom2bis;
 		return $this;
 	}
@@ -67,7 +67,7 @@ class Gesamtkostenprom2von {
 	 * @param float $value Setter for value
 	 * @return Gesamtkostenprom2von
 	 */
-	public function setValue(float $value) {
+	public function setValue($value) {
 		$this->value = $value;
 		return $this;
 	}

@@ -48,21 +48,21 @@ class Sicherheitstechnik {
 	/**
 	 * @return boolean
 	 */
-	public function getAlarmanlage(): bool {
+	public function getAlarmanlage() {
 		return $this->alarmanlage;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getKamera(): bool {
+	public function getKamera() {
 		return $this->kamera;
 	}
 
 	/**
 	 * @return boolean
 	 */
-	public function getPolizeiruf(): bool {
+	public function getPolizeiruf() {
 		return $this->polizeiruf;
 	}
 
@@ -70,7 +70,7 @@ class Sicherheitstechnik {
 	 * @param boolean $alarmanlage Setter for alarmanlage
 	 * @return Sicherheitstechnik
 	 */
-	public function setAlarmanlage(bool $alarmanlage) {
+	public function setAlarmanlage($alarmanlage) {
 		$this->alarmanlage = $alarmanlage;
 		return $this;
 	}
@@ -79,7 +79,7 @@ class Sicherheitstechnik {
 	 * @param boolean $kamera Setter for kamera
 	 * @return Sicherheitstechnik
 	 */
-	public function setKamera(bool $kamera) {
+	public function setKamera($kamera) {
 		$this->kamera = $kamera;
 		return $this;
 	}
@@ -88,7 +88,7 @@ class Sicherheitstechnik {
 	 * @param boolean $polizeiruf Setter for polizeiruf
 	 * @return Sicherheitstechnik
 	 */
-	public function setPolizeiruf(bool $polizeiruf) {
+	public function setPolizeiruf($polizeiruf) {
 		$this->polizeiruf = $polizeiruf;
 		return $this;
 	}
