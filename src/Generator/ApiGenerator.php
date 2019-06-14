@@ -35,8 +35,8 @@ class ApiGenerator
      * @var array
      */
     protected $generatorConfig = [
-        'generateScalarTypeHints' => true,
-        'generateReturnTypeHints' => true
+        'generateScalarTypeHints' => false,
+        'generateReturnTypeHints' => false
     ];
 
     /**
