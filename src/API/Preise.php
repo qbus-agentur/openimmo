@@ -876,7 +876,7 @@ class Preise {
 	 * @return array
 	 */
 	public function getStpSonstige() {
-		return $this->stpSonstige;
+		return $this->stpSonstige ?: [];
 	}
 
 	/**
@@ -899,7 +899,7 @@ class Preise {
 	 * @return array
 	 */
 	public function getUserDefinedAnyfield() {
-		return $this->userDefinedAnyfield;
+		return $this->userDefinedAnyfield ?: [];
 	}
 
 	/**
@@ -908,7 +908,7 @@ class Preise {
 	 * @return array
 	 */
 	public function getUserDefinedExtend() {
-		return $this->userDefinedExtend;
+		return $this->userDefinedExtend ?: [];
 	}
 
 	/**
@@ -917,7 +917,7 @@ class Preise {
 	 * @return array
 	 */
 	public function getUserDefinedSimplefield() {
-		return $this->userDefinedSimplefield;
+		return $this->userDefinedSimplefield ?: [];
 	}
 
 	/**

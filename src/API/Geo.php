@@ -299,7 +299,7 @@ class Geo {
 	 * @return array
 	 */
 	public function getUserDefinedAnyfield() {
-		return $this->userDefinedAnyfield;
+		return $this->userDefinedAnyfield ?: [];
 	}
 
 	/**
@@ -308,7 +308,7 @@ class Geo {
 	 * @return array
 	 */
 	public function getUserDefinedExtend() {
-		return $this->userDefinedExtend;
+		return $this->userDefinedExtend ?: [];
 	}
 
 	/**
@@ -317,7 +317,7 @@ class Geo {
 	 * @return array
 	 */
 	public function getUserDefinedSimplefield() {
-		return $this->userDefinedSimplefield;
+		return $this->userDefinedSimplefield ?: [];
 	}
 
 	/**

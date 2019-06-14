@@ -47,7 +47,7 @@ class Openimmo {
 	 * @return array
 	 */
 	public function getAnbieter() {
-		return $this->anbieter;
+		return $this->anbieter ?: [];
 	}
 
 	/**
@@ -63,7 +63,7 @@ class Openimmo {
 	 * @return array
 	 */
 	public function getUserDefinedAnyfield() {
-		return $this->userDefinedAnyfield;
+		return $this->userDefinedAnyfield ?: [];
 	}
 
 	/**
@@ -72,7 +72,7 @@ class Openimmo {
 	 * @return array
 	 */
 	public function getUserDefinedSimplefield() {
-		return $this->userDefinedSimplefield;
+		return $this->userDefinedSimplefield ?: [];
 	}
 
 	/**

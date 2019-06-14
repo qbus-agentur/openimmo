@@ -26,7 +26,7 @@ class UserDefinedExtend {
 	 * @return array
 	 */
 	public function getFeld() {
-		return $this->feld;
+		return $this->feld ?: [];
 	}
 
 	/**

@@ -659,7 +659,7 @@ class Ausstattung {
 	 * @return array
 	 */
 	public function getServiceleistungen() {
-		return $this->serviceleistungen;
+		return $this->serviceleistungen ?: [];
 	}
 
 	/**
@@ -682,7 +682,7 @@ class Ausstattung {
 	 * @return array
 	 */
 	public function getStellplatzart() {
-		return $this->stellplatzart;
+		return $this->stellplatzart ?: [];
 	}
 
 	/**
@@ -733,7 +733,7 @@ class Ausstattung {
 	 * @return array
 	 */
 	public function getUserDefinedAnyfield() {
-		return $this->userDefinedAnyfield;
+		return $this->userDefinedAnyfield ?: [];
 	}
 
 	/**
@@ -742,7 +742,7 @@ class Ausstattung {
 	 * @return array
 	 */
 	public function getUserDefinedExtend() {
-		return $this->userDefinedExtend;
+		return $this->userDefinedExtend ?: [];
 	}
 
 	/**
@@ -751,7 +751,7 @@ class Ausstattung {
 	 * @return array
 	 */
 	public function getUserDefinedSimplefield() {
-		return $this->userDefinedSimplefield;
+		return $this->userDefinedSimplefield ?: [];
 	}
 
 	/**
