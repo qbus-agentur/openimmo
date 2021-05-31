@@ -140,6 +140,7 @@ class ApiGenerator
             $constructor->addParameter(PhpParameter::create($attributeName)
                                                    ->setType($type)
                                                    ->setValue(null)
+					           ->setNullable(false)
                                                    ->setDescription('Shortcut setter for ' . $attributeName)
             );
             $constrctorCode[] = '$this->' . $attributeName . ' = $' . $attributeName . ';';
@@ -148,6 +149,7 @@ class ApiGenerator
         // now the value itself
         $constructor->addParameter(PhpParameter::create($propertyName)
                                                ->setType($propertyType)
+					           ->setNullable(false)
                                                ->setValue(null)
                                                ->setDescription('the actual value')
         );
@@ -518,6 +520,7 @@ class ApiGenerator
             $setter->getDocblock()->appendTag(TagFactory::create('return', $class->getName()));
         }
         $setter->setBody($setterCode);
+	//$setter->setNullable(false);
         $class->setMethod($setter);
     }
 
